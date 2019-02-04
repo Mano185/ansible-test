@@ -1,0 +1,13 @@
+---
+
+  tasks:
+
+  - name: Update VM
+    apt: update_cache=yes
+
+  - name: upgrade VM
+    apt: upgrade=full
+
+
+
+
